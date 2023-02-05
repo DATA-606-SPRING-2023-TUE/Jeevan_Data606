@@ -1,1 +1,1 @@
-# Jeevan_Data606
+# This is Capstone project for Data science
