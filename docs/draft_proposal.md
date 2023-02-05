@@ -14,4 +14,10 @@
 
 #### This will help hosts in optimizing their revenue by setting with accurate prices for the houses. 
 #### Accurate price listing of airbnb houses will have advantage of remaining competition with other listings in that area.
-#### The end user / customers will also get benefited as they dont feel overpriced and give satisfactory ratings and good reviews which will help for future bookings
+#### The end user / customers will also get benefited as they dont feel overpriced and give satisfactory ratings and good reviews which will help for future bookings.
+
+### Dataset used
+
+#### The datset is not directly available form the airbnb website. There are many third party ebsites which scraped data from airbnb and they are providing datasets in csv format. Some of them are inside Airbnb (insideairbnb.com), AirDNA (airdna.co) and Smartbnb (smartbnb.io). I chose to get data from inside airbnb as it has datasets seperately for each city. So I took three of the major cities in USA (New york, New Jersey and Washington D.C). All of these datasets are downloaded from inside airbnb.
+
+
