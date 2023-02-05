@@ -22,7 +22,7 @@
 
 ### Machine learning models
 
-#### The initial dataset needs to be cleaned and drop unnecessaru columns and impute any missing values with Mean/median/mode or interpolate with any statistical methods. The cleansed data is to be trained with machine learning algorithms to predict the price of the new house with the existing neighbourhood housing prices in airbnb.
+#### The initial dataset needs to be cleaned and drop unnecessary columns and impute any missing values with Mean/median/mode or interpolate with any statistical methods. The cleansed data is to be trained with machine learning algorithms to predict the price of the new house with the existing neighbourhood housing prices in airbnb.
 
 
 ### Web deployment
