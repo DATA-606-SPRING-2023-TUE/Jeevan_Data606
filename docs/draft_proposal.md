@@ -22,8 +22,9 @@
 - The datset is not directly available form the airbnb website. There are many third party ebsites which scraped data from airbnb and they are providing datasets in csv format. Some of them are inside Airbnb (insideairbnb.com), AirDNA (airdna.co) and Smartbnb (smartbnb.io). 
 - I chose to get data from inside airbnb as it has datasets seperately for each city. So I took three of the major cities in USA (New york, New Jersey and Washington D.C). All of these datasets are downloaded from inside airbnb website.
 -  All the three datsets are having 18 columns with each state having different number of airbnb listings (many rows). All the three datsets are merged and hence it has 49010 rows and 19 columns with one extra column of location ( New york, New Jersey and Washington DC)
+-  As this dataset feom inside airbnb dataset is scraped on December 2022 and it is having the data from 12 months befor December 2022. So the data is from December 2021 to December 2022 
 
- - Columns in dataset are
+### **Columns in dataset are
 - 1   id - int64  ( The id of the Airbnb of particular location)                         
 - 2   name - object  ( The name of Airbnb)                         
 - 3   host_id  - in64 ( Unique id of the host)
@@ -48,11 +49,12 @@
 
 - The initial dataset needs to be cleaned and drop unnecessary columns and impute any missing values with Mean/median/mode or interpolate with any statistical methods.
 - The cleansed data is to be trained with machine learning algorithms to predict the price of the new house with the existing neighbourhood housing prices in airbnb.
-
+- I wanted to train the data with linear regression if they have linear relationship between the features and predict the price and also use Random Forest and XGBoost, gradient boosting model for price prediction
 
 ### **Web deployment**
 
 - After training the model with the machine learning algorithm, the web application is deployed in Streamlit and host can enter the details of their housing in the given inputs and obtain the predicted priice of his housing to list in airbnb.
+- The webapp has series of inputs to be provided by the host and when the host enters all of the information, the ML model will run and gives desired price prediction suitable for the airbnb location to the host
 
 ### **Conclusion**
 
