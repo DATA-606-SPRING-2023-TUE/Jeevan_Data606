@@ -21,7 +21,7 @@
 
 - The datset is not directly available form the airbnb website. There are many third party ebsites which scraped data from airbnb and they are providing datasets in csv format. Some of them are inside Airbnb (insideairbnb.com), AirDNA (airdna.co) and Smartbnb (smartbnb.io). 
 - I chose to get data from inside airbnb as it has datasets seperately for each city. So I took three of the major cities in USA (New york, New Jersey and Washington D.C). All of these datasets are downloaded from inside airbnb website.
--  All the three datsets are having 18 columns with each state having different number of airbnb listings (many rows). All the three datsets are merged and hence it has 49010 rows and 19 columns with one extra column of location ( New york, New Jersey and Washington DC)
+-  All the three datsets are having 18 columns with each state having different number of airbnb listings (many rows). All the three datsets are merged and hence it has 49010 airbnb listings and 19 features with one extra column of location ( New york, New Jersey and Washington DC) included manually.
 -  As this dataset feom inside airbnb dataset is scraped on December 2022 and it is having the data from 12 months befor December 2022. So the data is from December 2021 to December 2022 
 
 ### Columns in dataset are
