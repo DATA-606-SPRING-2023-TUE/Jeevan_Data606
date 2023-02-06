@@ -25,12 +25,12 @@
 -  As this dataset feom inside airbnb dataset is scraped on December 2022 and it is having the data from 12 months befor December 2022. So the data is from December 2021 to December 2022 
 
 ### Columns in dataset are
-- 1.   id - int64  ( The id of the Airbnb of particular location)                         
-- 2.   name - object  ( The name of Airbnb)                         
-- 3.   host_id  - in64 ( Unique id of the host)
-- 4.   host_name - object ( Name of the host)
-- 5.   neighbourhood_group - object  ( the neighbourhood group that airbnb belongs to)
-- 6.   neighbourhood - object ( neighbourhood that airbnb belongs to)
+- 1)   id - int64  ( The id of the Airbnb of particular location)                         
+- 2)   name - object  ( The name of Airbnb)                         
+- 3)   host_id  - in64 ( Unique id of the host)
+- 4)   host_name - object ( Name of the host)
+- 5)   neighbourhood_group - object  ( the neighbourhood group that airbnb belongs to)
+- 6)   neighbourhood - object ( neighbourhood that airbnb belongs to)
 - 7.   latitude -  float64 ( latitude of airbnb)
 - 8.   longitude - float64 (longitude of airbnb)
 - 9.   room_type -  object (type of the room that airbnb has)
