@@ -42,13 +42,21 @@ https://user-images.githubusercontent.com/123945822/218366802-eaac65f5-45ab-4c19
 - 10.  price - int64  (price of airbnb)
 - 11.  minimum_nights - int64  (minimum number of night stay for the listing (calendar rules may be different)
 - 12.  number_of_reviews  - int64 ( no of reviews of airbnb)
-- 13.  last_review  - object (he date of the last/newest review)
+- 13.  last_review  - object (the date of the last/newest review)
 - 14.  reviews_per_month  -  float64 (no of reviews per month)
 - 15.  calculated_host_listings_count -  int64  (The number of listings the host has in the current scrape, in the city/region geography.)
 - 16.  availability_365 - int64  (avaliability_x. The availability of the listing x days in the future as determined by the calendar. Note a listing may not be available because it has been booked by a guest or blocked by the host.)
 - 17.  number_of_reviews_ltm  - int64  (The number of reviews the listing has (in the last 12 months)
 - 18.  license  - object ( licence of airbnb)
 - 19.  location -  object ( location of airbnb ( NY,NJ,DC)
+
+### **Data cleaning**
+
+- Licence column is dropped as it is not useful for analysis
+- Neighbourhood group has 5 groups in New york but there are no neighbourhood groups in New Jersey and Washington DC
+- As there are no reviews for 10896 houses and hence no last_review date and no reviews_per_month available
+- There are few missing details like name of airbnb and host_name which will not affect our analysis
+-  Price column has abnormal values while anlaysis and observed that there are many houses whose price is above $5000 due to luxury houses and there are 7 houses whose price is above $10000 with highest being $98159.
 
 ### **Machine learning models**
 
