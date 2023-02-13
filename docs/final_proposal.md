@@ -2,6 +2,11 @@
 
 # **Price prediction of Airbnb housing**
 
+
+
+https://user-images.githubusercontent.com/123945822/218366802-eaac65f5-45ab-4c19-a473-83f9df1993f1.mp4
+
+
 ### Abstract
 
 - It is always difficult to chose an airbnb for stay during vacation from huge number of listings. Sometimes it feels that an Airbnb is overly priced and it is not worth the price and thus airbnb is rated low and negative reviews. This causes reduced number of bookings to that airbnb in near future. If an Airbnb is priced at very less price range then there is an risk that host of the airbnb may experience loss in business. So, a correct estimate of price for Airbnb will help both hosts and customers to keep up its standards while providing customer satisfaction and avoid loss in business.
