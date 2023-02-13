@@ -1,5 +1,4 @@
-# this is final proposal
-## This is a draft proposal for the capstone project
+# This is the final proposal
 
 # **Price prediction of Airbnb housing**
 
