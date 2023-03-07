@@ -30,25 +30,27 @@ https://user-images.githubusercontent.com/123945822/218366802-eaac65f5-45ab-4c19
 -  As this dataset feom inside airbnb dataset is scraped on December 2022 and it is having the data from 12 months befor December 2022. So the data is from December 2021 to December 2022 
 
 ### Columns in dataset are
-- 1)   id - int64  ( The id of the Airbnb of particular location)                         
-- 2)   name - object  ( The name of Airbnb)                         
-- 3)   host_id  - in64 ( Unique id of the host)
-- 4)   host_name - object ( Name of the host)
-- 5)   neighbourhood_group - object  ( the neighbourhood group that airbnb belongs to)
-- 6)   neighbourhood - object ( neighbourhood that airbnb belongs to)
-- 7.   latitude -  float64 ( latitude of airbnb)
-- 8.   longitude - float64 (longitude of airbnb)
-- 9.   room_type -  object (type of the room that airbnb has)
-- 10.  price - int64  (price of airbnb)
-- 11.  minimum_nights - int64  (minimum number of night stay for the listing (calendar rules may be different)
-- 12.  number_of_reviews  - int64 ( no of reviews of airbnb)
-- 13.  last_review  - object (the date of the last/newest review)
-- 14.  reviews_per_month  -  float64 (no of reviews per month)
-- 15.  calculated_host_listings_count -  int64  (The number of listings the host has in the current scrape, in the city/region geography.)
-- 16.  availability_365 - int64  (avaliability_x. The availability of the listing x days in the future as determined by the calendar. Note a listing may not be available because it has been booked by a guest or blocked by the host.)
-- 17.  number_of_reviews_ltm  - int64  (The number of reviews the listing has (in the last 12 months)
-- 18.  license  - object ( licence of airbnb)
-- 19.  location -  object ( location of airbnb ( NY,NJ,DC)
+<ol>
+  <li>   id - int64  ( The id of the Airbnb of particular location)    </li>                      
+  <li>   name - object  ( The name of Airbnb)       </li>                   
+<li>   host_id  - in64 ( Unique id of the host) </li>
+<li>   host_name - object ( Name of the host) </li>
+<li>   neighbourhood_group - object  ( the neighbourhood group that airbnb belongs to) </li>
+<li>  neighbourhood - object ( neighbourhood that airbnb belongs to) </li>
+<li>   latitude -  float64 ( latitude of airbnb) </li>
+<li>  longitude - float64 (longitude of airbnb) </li>
+<li>    room_type -  object (type of the room that airbnb has) </li>
+<li>   price - int64  (price of airbnb) </li>
+<li>   minimum_nights - int64  (minimum number of night stay for the listing (calendar rules may be different) </li>
+<li>   number_of_reviews  - int64 ( no of reviews of airbnb) </li>
+<li>   last_review  - object (the date of the last/newest review) </li>
+<li>   reviews_per_month  -  float64 (no of reviews per month) </li>
+<li>   calculated_host_listings_count -  int64  (The number of listings the host has in the current scrape, in the city/region geography.) </li>
+<li>   availability_365 - int64  (avaliability_x. The availability of the listing x days in the future as determined by the calendar. Note a listing may not be available because it has been booked by a guest or blocked by the host.) </li>
+<li>   number_of_reviews_ltm  - int64  (The number of reviews the listing has (in the last 12 months) </li>
+<li>   license  - object ( licence of airbnb) </li>
+<li>   location -  object ( location of airbnb ( NY,NJ,DC) </li>
+</ol>
 
 ### **Data cleaning**
 
