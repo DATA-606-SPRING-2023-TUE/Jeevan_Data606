@@ -54,6 +54,9 @@ https://user-images.githubusercontent.com/123945822/218366802-eaac65f5-45ab-4c19
 -  This application can also be utilized by Airbnb to provide suggestions to hosts regarding adjusting prices in response to market competition.
 
 
+![result](https://github.com/Jeevan060397/Jeevan_Data606/assets/123945822/6750c69b-b123-476b-8772-b1e94bc3a062)
+
+
 
 ### **Web deployment of Model**
 
