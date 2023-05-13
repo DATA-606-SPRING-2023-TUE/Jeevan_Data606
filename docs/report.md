@@ -2,7 +2,7 @@
 
 Presentation slides link: https://github.com/DATA-606-SPRING-2023-TUE/Jeevan_Data606/blob/main/docs/capstone.pptx
 
-Presentation video link: 
+Presentation video link: https://youtu.be/YTCNgNKBOmc
 
 ## Introduction
 
